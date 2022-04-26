@@ -1,0 +1,79 @@
+body{
+    font-family: 'Cambay', sans-serif;
+    text-align: center;
+}
+/* header section */
+header h1{
+    text-align: center;
+    height: 75px;
+}
+a{
+    color: black;
+}
+div{
+    display: block;
+}
+/* nav section */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+    
+    
+}
+/* mission section */
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 15% 5%;
+}
+.mission h2, .mission h3{
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* services section */ 
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service img{
+    width:200px;
+    height: auto;
+    margin: 0.5%;
+
+}
+.service h3{
+    min-width:250px;
+}
+/* team section */
+.team{
+    background-color: rgb(30, 30, 49);
+    color: white;
+}
+.team-mates{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(30, 30, 49);
+}
+.team-mate img{
+    width: 350px;
+    height: auto;
+    margin: 0.5%;
+}
